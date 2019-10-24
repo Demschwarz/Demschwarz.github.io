@@ -1,0 +1,156 @@
+header {
+    background-color: cadetblue;
+    padding: 20px;
+    margin-top: 0;
+    color: white
+}
+
+.header-content {
+    max-width: 960px;
+    margin: auto;
+}
+
+header img {
+    float: left;
+    height: 35px;
+    margin-top: 0;
+}
+
+nav {
+    /*
+    position: sticky;
+    top: 0;
+*/
+    background-color: blue;
+    max-width: 100%;
+}
+
+nav ol li {
+    min-height: 2em;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0 10%;
+}
+
+nav .row .col-md-4 a {
+    color: white;
+    font-size: 15px;
+}
+
+/*
+.anch_list {
+    display: inline-block
+}
+
+.anch_list img {
+    width: 100%;
+}
+*/
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    height: 300px;
+    width: 100%;
+
+}
+
+tr {
+    background-color: azure;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr:nth-of-type(4) td:nth-of-type(3) {
+    text-align: center;
+}
+
+tr:nth-child(2n) {
+    background-color: bisque;
+}
+
+tr:nth-child(2n) td:first-of-type {
+    background-color: coral;
+}
+
+tr:nth-child(2n + 1) td:first-of-type {
+    background-color: aquamarine;
+}
+
+
+#sep {
+    font-size: 8px;
+    background-color: darkgrey;
+    padding-top: 0;
+}
+
+
+strong {
+    font-size: 17px;
+}
+
+#Recount {
+    background-color: aliceblue;
+}
+
+#Recount td:first-of-type {
+    background-color: beige;
+    text-align: center;
+}
+
+.submenu {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: white
+}
+
+h1{
+    text-align: center;
+}
+
+.name{
+    font-size: 35px;
+}
+
+img{
+    max-width: 100%;
+}
+.review-content{
+    background-color:darkseagreen
+}
+
+.product{
+    margin-bottom: 1rem;
+}
+.desc{
+    padding-left: 5px;
+}
+@media screen and (min-device-width: 768px) {
+    .container {
+        margin: auto;
+        max-width: 960px;
+    }
+
+    img {
+        width: inherit;
+    }
+}
+
+@media screen and (min-device-width: 960px) {
+    .container {
+        max-width: 960px;
+    }
+
+    img {
+        width: inherit;
+    }
+}
