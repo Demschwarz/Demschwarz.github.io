@@ -49,7 +49,10 @@ img {
     margin-bottom: 1rem;
 }
 
-
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
 @media screen and (min-device-width: 960px) {
     .container {
         max-width: 960px;
