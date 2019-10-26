@@ -21,7 +21,8 @@
         <div class="row">
             <div class="col-sm-12 col-md-4"><a href="#self">О компании</a></div>
             <div class="col-sm-12 col-md-4"><a href="#reviews">Наши товары</a></div>
-            <div class="col-sm-12 col-md-4"><a href="#adress">Наши адреса</a></div>        </div>
+            <div class="col-sm-12 col-md-4"><a href="#adress">Наши адреса</a></div>
+        </div>
     </nav>
     <div id="Description" class="container">
         <div class="row">
@@ -40,13 +41,30 @@
                 <h1>Наши продукты</h1>
             </div>
         </div>
-            <div itemscope itemtype="http://schema.org/Product" class="product">
+        <div itemscope itemtype="http://schema.org/Product" class="product">
+            <div hidden itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                <span itemprop="ratingValue">87</span>
+                из <span itemprop="bestRating">100</span>
+                основано на <span itemprop="ratingCount">322</span> пользовательских оценках
+            </div>
+            <div hidden itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                <meta itemprop="price" content="75000">
+                <meta itemprop="priceCurrency" content="RUB">
+                <meta itemprop="availability" hidden="" content="https://schema.org/InStock">
+                <meta hidden="" itemprop="priceValidUntil" content="2023-12-01">
+                <link hidden="" itemprop="url" href="/">
+            </div>
+            <meta itemprop="sku" content="123456789">
+            <meta itemprop="mpn" content="925872">
+            <div itemprop="brand" hidden="" itemtype="http://schema.org/Brand" itemscope="">
+                <meta hidden itemprop="name" content="Лемурир">
+            </div>
             <div itemprop="name">
                 <h2>Шуба из лемура чёрная</h2>
             </div>
             <div itemprop="description" class="row">
                 <div class="col-3">
-                    <img src="https://onlinegear.ru/img/products/16669-chernaja-norkovaja-shuba-s-kapjushonom-ot-flaumfeder.jpg" alt="Чёрная шуба">
+                    <img itemprop="image" src="https://onlinegear.ru/img/products/16669-chernaja-norkovaja-shuba-s-kapjushonom-ot-flaumfeder.jpg" alt="Чёрная шуба">
                 </div>
                 <div class="col-9">
                     <span><em>Чёрная лемурья шуба - флагман нашего производства. Эталонный вид и величественный фасон попросту не позволяет никому пройти мимо, не заметив владельца, оставляя завистников лишь грызть ногти и сокрушаться по этому, без прикрас, произведению искусства</em></span>
@@ -78,12 +96,29 @@
             </div>
         </div>
         <div itemscope itemtype="http://schema.org/Product">
+            <div hidden itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                <span itemprop="ratingValue">69</span>
+                из <span itemprop="bestRating">100</span>
+                основано на <span itemprop="ratingCount">223</span> пользовательских оценках
+            </div>
+            <div hidden itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                <meta itemprop="price" content="69000">
+                <meta itemprop="priceCurrency" content="RUB">
+                <meta itemprop="availability" hidden="" content="https://schema.org/InStock">
+                <meta hidden="" itemprop="priceValidUntil" content="2023-12-01">
+                <link hidden="" itemprop="url" href="/">
+            </div>
+            <meta itemprop="sku" content="123456789">
+            <meta itemprop="mpn" content="925872">
+            <div itemprop="brand" hidden="" itemtype="http://schema.org/Brand" itemscope="">
+                <meta hidden itemprop="name" content="Лемурир">
+            </div>
             <div itemprop="name">
                 <h2>Шуба из лемура розовая</h2>
             </div>
             <div itemprop="description" class="row">
                 <div class="col-3">
-                    <img src="https://i.pinimg.com/736x/6e/44/55/6e44555ead7781ae243bb37e40f47e9e.jpg" alt="Розовая шуба">
+                    <img itemprop="image " src="https://i.pinimg.com/736x/6e/44/55/6e44555ead7781ae243bb37e40f47e9e.jpg" alt="Розовая шуба">
                 </div>
                 <div class="col-9">
                     <span><em>Розовая лемурья шуба - достойный выбор в качестве подарка. Дерзкий вид и вызывающий фасон попросту не позволяет никому пройти мимо, будучи не восхищёнными смелостью Вашей персоны</em></span>
