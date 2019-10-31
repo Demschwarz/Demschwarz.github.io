@@ -151,6 +151,34 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+                <form class = "calc col-12">
+                        <h2>Калькулятор товаров</h2>
+                        <label>Количество:<input type="text" pattern="[1-9][0-9]*" placeholder="0" id = "colvo"></label><br>
+                        <label><input type="radio" value="75" id="radio_black" name="type">Черная лемурья шуба</label><br>
+                        <label><input type="radio" id="radio_pink" name="type">Розовая лемурья шуба</label><br>
+                        <label><input type="radio" id="radio_complect" name="type">Комплект лемурьих шуб</label><br>
+                
+                        <div id="for_pink">
+                            <label><input type="radio" value = "74" name="pink">С генетическим автографом владельца компании</label><br>
+                            <label><input type="radio" value = "74" name="pink">Без генетического автографа владельца компании</label><br>
+                            <label><input type="radio" value = "94" name="pink">Из живых лемуров</label><br>
+                        </div>
+                
+                        <div id = "for_complect">
+                            <label><input type="checkbox" value="150">Две чёрные шубы</label><br>
+                            <label><input type="checkbox" value="144">Чёрная и розовая шубы</label><br>
+                            <label><input type="checkbox" value="138">Две розовые шубы</label><br>
+                        </div>
+                
+                        <div id="itog">
+                
+                        </div>
+                        <span style="font-size: 10px;">*Цена указана в тысячах монгольских тугриков</span>
+                    </form>
+        </div>
+    </div>
     <div id="adress" class="col-md-12 bg-light text-dark" itemscope="" itemtype="https://schema.org/PostalAddress">
         <h1 class="text-center" itemprop="name">Адреса филиалов компании</h1>
         <p class="text text-center" itemprop="addressCountry">Россия</p>
