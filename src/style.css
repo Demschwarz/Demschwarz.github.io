@@ -8,7 +8,7 @@ header {
 body {
   max-width: 100%;
   background: url(/killer_queen_wallpaper_by_tenopis_dcqgep6-pre-1.jpg);
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-size: 100%;
 }
 .container:not(nav) {
