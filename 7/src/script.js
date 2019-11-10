@@ -1,5 +1,5 @@
-
-
+import $ from "jquery";
+import slick from "slick-carousel";
 // var elem = document.getElementById("button");
 var flag = document.getElementById("reviews");
 // elem.onclick = function() {
@@ -89,3 +89,21 @@ for (let checkbox of checkboxes) {
     itog.innerHTML = sum * colvo_value;
   };
 }
+$(document).ready(function() {
+  $(".my-slider").slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+    ]
+  });
+});
